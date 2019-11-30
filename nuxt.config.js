@@ -46,7 +46,7 @@ export default {
     '@nuxtjs/pwa',
     "vue-geolocation-api/nuxt",
     ['nuxt-gmaps', {
-      key: 'AIzaSyD1w3F2weiXcu0cKUWIDcw2wKnYiNt02RU',
+      key: '---ENTER YOUR KEY---',
       //you can use libraries: ['places']
     }]
   ],
