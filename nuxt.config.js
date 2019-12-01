@@ -43,16 +43,14 @@ export default {
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
-    '@nuxtjs/pwa',
+    
     "vue-geolocation-api/nuxt",
     ['nuxt-gmaps', {
-      key: '---ENTER YOUR KEY---',
-      //you can use libraries: ['places']
+      key: 'AIzaSyDqlgQ_QDW33wWzgHdeAxWMoZsyx_mS7-o',
+      libraries: ['places']
     }]
   ],
-  geolocation:  {
-    // watch: true,
-  },
+
   /*
   ** Axios module configuration
   ** See https://axios.nuxtjs.org/options

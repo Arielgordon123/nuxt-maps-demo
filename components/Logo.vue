@@ -6,7 +6,17 @@
     <div class="Triangle Triangle--four" />
   </div>
 </template>
-
+<script>
+export default {
+   mounted () {
+    console.log(' llogo try to get location:' );
+    this.$geolocation.getCurrentPosition().then(object=>{
+      console.log('object :', object.coords);
+      //  this.locations.push({lat: object.coords.latitude, lng: object.coords.longitude})
+    }) 
+},
+}
+</script>
 <style>
 .VueToNuxtLogo {
   display: inline-block;
